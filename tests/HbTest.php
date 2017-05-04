@@ -19,7 +19,7 @@ class HbTest extends TestCase
     public function testFirst()
     {
         $a = 23;
-        $this->assertEquals(12, 12);
+        $this->assertEquals(12, 121);
 
     }
 }
