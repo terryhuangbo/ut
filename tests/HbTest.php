@@ -15,9 +15,7 @@ use PHPUnit\Framework\TestCase;
 class HbTest extends TestCase
 {
     /**
-     * @covers            \SebastianBergmann\Money\Money::__construct
-     * @uses              \SebastianBergmann\Money\Currency
-     * @expectedException \SebastianBergmann\Money\InvalidArgumentException
+     * @group hbtest
      */
     public function testFirst()
     {
