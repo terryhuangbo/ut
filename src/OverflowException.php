@@ -8,20 +8,17 @@
  * file that was distributed with this source code.
  */
 
-namespace SebastianBergmann\Money;
+namespace SebastianBergmann;
 
 /**
+ * Exception that is throw when when an amount overflows valid integers
+ *
  * @package    Money
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @copyright  Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License
- * @since      Class available since Release 1.3.0
- * @codeCoverageIgnore
+ * @link       http://www.github.com/sebastianbergmann/money
  */
-class UGX extends Money
+class OverflowException
 {
-    public function __construct($amount)
-    {
-        parent::__construct($amount, new Currency('UGX'));
-    }
 }
