@@ -15,6 +15,7 @@ use PHPUnit\Framework\TestCase;
 class HbTest extends TestCase
 {
     /**
+     * @covers
      * @group hbtest
      */
     public function testFirst()
