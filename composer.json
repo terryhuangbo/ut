@@ -23,11 +23,6 @@
             "Tests\\": "tests/"
         }
     },
-    "autoload": {
-        "classmap": [
-            "src/"
-        ]
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.6.x-dev"
