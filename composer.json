@@ -14,6 +14,15 @@
         "php": "^5.4|^7.0",
         "ext-intl": "*"
     },
+    "require-dev": {
+        "phpunit/dbunit": "^2.0",
+        "mikey179/vfsStream": "~1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "autoload": {
         "classmap": [
             "src/"

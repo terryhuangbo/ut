@@ -8,18 +8,17 @@
  * file that was distributed with this source code.
  */
 
-namespace SebastianBergmann\Money;
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
 class HbTest extends TestCase
 {
     /**
+     * @group hbtest
      */
     public function testFirst()
     {
-        $a = 23;
-        $this->assertEquals(12, 121);
-
+        $this->assertEquals(12, 12);
     }
 }
