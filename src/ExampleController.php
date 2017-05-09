@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Http\Controllers;
 
-class ExampleController extends Controller
+class ExampleController
 {
     /**
      * Create a new controller instance.
@@ -12,6 +11,14 @@ class ExampleController extends Controller
     public function __construct()
     {
         //
+    }
+
+    /**
+     * @return int
+     */
+    public function actionLogin()
+    {
+         return 123;
     }
 
     //
